@@ -1,0 +1,31 @@
+
+def luas_lingkaran(r):
+    return (22/7) * (r ** 2)
+
+def keliling_lingkaran(r):
+    return 2 * (22/7) * r
+
+while True:
+    print("\n=== MENU LINGKARAN ===")
+    print("1. Luas Lingkaran")
+    print("2. Keliling Lingkaran")
+    print("3. Keluar")
+
+    pilihan = input("Masukkan pilihan operasi: ")
+
+    if pilihan == "3":
+        print("Program selesai.")
+        break
+
+    elif pilihan == "1":
+        r = float(input("Masukkan jari-jari: "))
+        luas = luas_lingkaran(r)
+        print(f"Luas lingkaran: {luas:.2f} cm²")
+
+    elif pilihan == "2":
+        r = float(input("Masukkan jari-jari: "))
+        keliling = keliling_lingkaran(r)
+        print(f"Keliling lingkaran: {keliling:.2f} cm")
+
+    else:
+        print("Pilihan tidak valid!")
