@@ -8,7 +8,6 @@ def LuasLingkaranAndKelilingLingkaran():
     print(f"Luas lingkaran adalah {luas} cm")
     print(f"Keliling lingkaran adalah {keliling} cm")
 
-  
 LuasLingkaranAndKelilingLingkaran()
 
 
